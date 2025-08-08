@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Radura Di Pra Vecchio – Home</title>
+    <link rel="icon" href="img.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papTgkAgF6DHQps4jzFqXTmFChFbRpiEuk+xO+Uuk6A3pFP6Y65IG9Bp6PA2XvwFyKxJQfaJTOkB3Vr+VsyYkg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+
+<div id="cookie-banner" class="hidden">
+    <p>
+        Questo sito utilizza Google Maps che potrebbe installare cookie di terze parti.
+        <a href="/privacy.html" target="_blank" rel="noopener">Scopri di più</a>.
+    </p>
+    <button id="accept-cookies">OK</button>
+</div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+    <img src="logo_alma.jpg" alt="Alma Favignana logo" class="logo">
+    <div class="menu-toggle" id="menu-toggle" aria-label="Apri menu">&#9776;</div>
+    <nav class="nav-links" id="nav">
+        <a href="#hero">Home</a>
+        <a href="#about">Chi siamo</a>
+        <a href="#gallery">Galleria</a>
+        <a href="#contact">Contatti</a>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content" data-aos="fade-up">
+        <h1>La Radura di Pravecchio</h1>
+        <p>Scopri la natura, impara giocando e vivi l'avventura dell'agricampeggio</p>
+        <a href="#gallery" class="btn">Esplora il mondo rurale</a>
+    </div>
+    <div class="hero-wave">
+        <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+            <path d="M0,224 C360,300 1080,160 1440,240 L1440,320 L0,320 Z"></path>
+        </svg>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" data-aos="fade-up">
+    <h2>Benvenuti alla Radura di Pravecchio</h2>
+
+    <div class="about-intro">
+        <p>
+            Immersa nella natura, tra colline verdi e profumi di campagna, la <strong>La Radura di Pravecchio</strong> è il luogo ideale per chi desidera riscoprire il ritmo lento della terra, tra attività educative, animali e vita all’aria aperta.
+            Un’esperienza autentica per famiglie, scuole e viaggiatori curiosi, in un contesto rurale accogliente e sostenibile.
+        </p>
+    </div>
+
+    <div class="about-details">
+        <p>La nostra fattoria è pensata per offrire un’esperienza unica, tra natura, apprendimento e relax:</p>
+        <ul class="about-list">
+            <li>Laboratori didattici per bambini e ragazzi (pane, orto, animali, riciclo creativo)</li>
+            <li>Spazi attrezzati per famiglie, gruppi scolastici e attività all’aperto</li>
+            <li>Pernottamento in tende glamping o agricampeggio per camper e roulotte</li>
+            <li>Area ristoro con prodotti locali e degustazioni a km 0</li>
+            <li>Docce calde, servizi igienici e area barbecue</li>
+            <li>Zona relax immersa nel verde</li>
+            <li>Wi-Fi gratuito nelle aree comuni</li>
+            <li>Pet-friendly: gli animali sono i benvenuti!</li>
+        </ul>
+    </div>
+
+    <div class="about-services">
+        <p>Offriamo inoltre:</p>
+        <ul class="about-list">
+            <li>Visite guidate con esperienze agricole e incontri con gli animali</li>
+            <li>Attività stagionali (raccolta, semina, produzione di formaggi e miele)</li>
+            <li>Eventi tematici, feste in fattoria e campi estivi</li>
+        </ul>
+    </div>
+
+    <div class="about-conclusion">
+        <p><strong>La Radura di Pravecchio</strong> è il punto di partenza perfetto per una vacanza educativa, sostenibile e divertente, a contatto con la natura.</p>
+    </div>
+</section>
+<section id="services" class="services-section" data-aos="fade-up">
+    <h2>Servizi</h2>
+    <div class="services-container">
+
+        <!-- Area Agricampeggio -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path d="M560 160H80C35.8 160 0 195.8 0 240v128c0 44.2 35.8 80 80 80h480c44.2 0 80-35.8 80-80V240c0-44.2-35.8-80-80-80zM160 368c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48z"/>
+            </svg>
+            <h3>Area Agricampeggio</h3>
+            <p>Spazi attrezzati per camper, roulotte e tende immersi nella natura.</p>
+        </div>
+
+        <!-- Laboratori Didattici -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path d="M96 64C96 28.7 124.7 0 160 0H480c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H160c-35.3 0-64-28.7-64-64V64zM320 400c17.7 0 32-14.3 32-32s-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32z"/>
+            </svg>
+            <h3>Laboratori Didattici</h3>
+            <p>Attività educative e creative per tutte le età: orto, animali, pane, riciclo.</p>
+        </div>
+
+        <!-- Prodotti a Km 0 -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+            <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path d="M320 32C193.5 32 88 137.5 88 264s105.5 232 232 232 232-105.5 232-232S446.5 32 320 32zm0 96a40 40 0 1 1 0 80 40 40 0 0 1 0-80zm64 320H256c-17.7 0-32-14.3-32-32v-16c0-35.3 28.7-64 64-64h64c35.3 0 64 28.7 64 64v16c0 17.7-14.3 32-32 32z"/>
+            </svg>
+            <h3>Prodotti a km 0</h3>
+            <p>Gusta i sapori autentici della fattoria: marmellate, verdure, formaggi.</p>
+        </div>
+
+        <!-- Visite guidate -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+            <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path d="M288 0C128.9 0 0 128.9 0 288c0 49.3 14 95.2 38.2 134.2c3.5 5.6 11.5 6.3 15.7 1.3c32.7-40.1 82.4-65.4 134.3-65.4h199.6c51.9 0 101.6 25.3 134.3 65.4c4.2 5 12.1 4.3 15.7-1.3C562 383.2 576 337.3 576 288C576 128.9 447.1 0 288 0zm0 144a64 64 0 1 1 0 128a64 64 0 1 1 0-128z"/>
+            </svg>
+            <h3>Visite guidate</h3>
+            <p>Esplora la fattoria, incontra gli animali e partecipa alla vita contadina.</p>
+        </div>
+
+        <!-- Lezioni di Yoga -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+            <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path d="M320 32a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM146.4 228.8L136 256H248l-24.6 64H144c-13.3 0-24 10.7-24 24s10.7 24 24 24h96l-18 48H192c-13.3 0-24 10.7-24 24s10.7 24 24 24h112l80-208h120c13.3 0 24-10.7 24-24s-10.7-24-24-24H320c-10 0-19 6.2-22.6 15.4L264.6 272H224l17.4-45.4c3.7-9.8 2.4-20.7-3.4-29.2L208 160l-61.6 68.8z"/>
+            </svg>
+            <h3>Yoga all’aperto</h3>
+            <p>Sessioni rilassanti immersi nella natura, per adulti e bambini.</p>
+        </div>
+
+        <!-- Area Barbecue -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+            <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path d="M96 64a32 32 0 1 1 64 0v80H96V64zm96 0a32 32 0 1 1 64 0v80h-64V64zm96 0a32 32 0 1 1 64 0v80h-64V64zM32 192H608v32H32V192zm576 64L512 480H128L32 256H608zm-93.6 48H125.6l68.8 128H414.4l68.8-128z"/>
+            </svg>
+            <h3>Area barbecue</h3>
+            <p>Griglia condivisa per serate sotto le stelle con i sapori della campagna.</p>
+        </div>
+
+        <!-- Attività condivise -->
+        <div class="service-card" data-aos="fade-up" data-aos-delay="700">
+            <svg class="service-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path d="M96 96a64 64 0 1 1 128 0A64 64 0 1 1 96 96zm320 0a64 64 0 1 1 128 0A64 64 0 1 1 416 96zM0 416c0-70.7 57.3-128 128-128h64c70.7 0 128 57.3 128 128v32H0v-32zm384 32v-32c0-35.7-12.5-68.4-33.2-94.2C368.7 318.3 392 304 416 304h64c70.7 0 128 57.3 128 128v32H384z"/>
+            </svg>
+            <h3>Attività condivise</h3>
+            <p>Laboratori, giochi e serate conviviali con altri ospiti della fattoria.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Galleria -->
+<section id="gallery" class="gallery-section" data-aos="fade-up">
+    <h2>Galleria</h2>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1518717202715-9fa9d099f58a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2FtcG8lMjB2ZXJkZXxlbnwwfHwwfHx8MA%3D%3D" alt="Vista mare">
+                <p class="caption">Bella acqua turchese a Favignana</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://plus.unsplash.com/premium_photo-1682500051076-9b4119f644b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FtcGVnZ2lvJTIwY2FtcGVyfGVufDB8fDB8fHww" alt="Balcone">
+                <p class="caption">Bella acqua turchese a Favignana</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://plus.unsplash.com/premium_photo-1664358190450-2d84d93b9546?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y2FtcGVnZ2lvJTIwY2FtcGVyfGVufDB8fDB8fHww" alt="Interni">
+                <p class="caption">Bella acqua turchese a Favignana</p>
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1427501482951-3da9b725be23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNpZWxvJTIwc3RlbGxhdG98ZW58MHx8MHx8fDA%3D" alt="Spiaggia vicina">
+
+            </div>
+        </div>
+        <!-- Paginazione + frecce -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+<!-- Contatti / Preventivo -->
+<section id="contact" class="cta" data-aos="fade-up">
+    <h2>Prenota il tuo soggiorno</h2>
+    <div class="contact-container">
+        <form class="contact-form" action="https://formsubmit.co/laraduradipravecchio@gmail.com" method="POST" data-aos="fade-up" data-aos-delay="200">
+            <input type="text" name="name" placeholder="Il tuo nome" required>
+            <input type="email" name="email" placeholder="La tua email" required>
+            <input type="tel" name="phone" placeholder="Numero di telefono" required>
+            <input type="date" name="checkin" placeholder="Data arrivo" required>
+            <input type="date" name="checkout" placeholder="Data partenza" required>
+            <textarea name="message" rows="4" placeholder="Richiedi informazioni" required></textarea>
+            <label class="privacy-consent">
+                <input type="checkbox" name="privacy" required>
+                Acconsento al trattamento dei miei dati personali ai sensi della
+                <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.
+            </label>
+            <button type="submit">Invia richiesta</button>
+        </form>
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.9951078935555!2d10.715272999999998!3d45.3892695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781c338a1a4cfa7%3A0xebe374a170cc2807!2sLa%20Radura%20di%20Pravecchio!5e0!3m2!1sit!2sit!4v1754613537282!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+<section id="social" class="social-section" data-aos="fade-up">
+    <h2>Seguici</h2>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/laraduradipravecchio/" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+        </a>
+        <a href="https://www.booking.com/tuoprofilo" target="_blank" rel="noopener" aria-label="Booking">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111320.png" alt="Booking" />
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer data-aos="fade-up">
+    <p>&copy; 2025 La Radura di Pravecchio – Tutti i diritti riservati</p>
+    <p>
+        <a href="tel:+393331112223"> +39 333 111 2223</a> |
+        <a href="mailto:laraduradipravecchio@gmail.com"> laraduradipravecchio@gmail.com</a>
+        <a href="privacy.html">Privacy Policy</a>
+    </p>
+</footer>
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({ duration: 800, once: true });
+</script>
+</body>
+</html>
